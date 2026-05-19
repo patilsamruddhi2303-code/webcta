@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Upload Notice</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            CMS Admin
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="admin_dashboard.html">
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="manage_notices.html">
+                    Manage Notices
+                </a>
+            </li>
+
+            <li>
+                <a href="login.html">
+                    Logout
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- PAGE HEADER -->
+
+    <section class="upload-header">
+
+        <h1>
+            Upload New Circular
+        </h1>
+
+        <p>
+            Add new notices, reminders,
+            workshops, and announcements.
+        </p>
+
+    </section>
+
+
+
+    <!-- UPLOAD FORM -->
+
+    <section class="upload-section">
+
+        <div class="upload-container">
+
+            <form>
+
+
+                <!-- NOTICE TITLE -->
+
+                <label>
+                    Notice Title
+                </label>
+
+                <input
+                    type="text"
+                    placeholder="Enter circular title"
+                    required
+                >
+
+
+
+                <!-- NOTICE DESCRIPTION -->
+
+                <label>
+                    Notice Description
+                </label>
+
+                <textarea
+                    rows="6"
+                    placeholder="Enter complete circular details"
+                    required>
+                </textarea>
+
+
+
+                <!-- CATEGORY -->
+
+                <label>
+                    Category
+                </label>
+
+                <select>
+
+                    <option>
+                        Workshops
+                    </option>
+
+                    <option>
+                        Examinations
+                    </option>
+
+                    <option>
+                        Placements
+                    </option>
+
+                    <option>
+                        Events
+                    </option>
+
+                    <option>
+                        General Circular
+                    </option>
+
+                </select>
+
+
+
+                <!-- PRIORITY -->
+
+                <label>
+                    Priority Level
+                </label>
+
+                <div class="radio-group">
+
+                    <label>
+
+                        <input
+                            type="radio"
+                            name="priority"
+                        >
+
+                        High
+
+                    </label>
+
+
+                    <label>
+
+                        <input
+                            type="radio"
+                            name="priority"
+                        >
+
+                        Medium
+
+                    </label>
+
+
+                    <label>
+
+                        <input
+                            type="radio"
+                            name="priority"
+                        >
+
+                        Low
+
+                    </label>
+
+                </div>
+
+
+
+                <!-- DATE -->
+
+                <label>
+                    Event Date
+                </label>
+
+                <input
+                    type="date"
+                >
+
+
+
+                <!-- TARGET USERS -->
+
+                <label>
+                    Send To
+                </label>
+
+                <div class="checkbox-group">
+
+                    <label>
+
+                        <input type="checkbox">
+
+                        Students
+
+                    </label>
+
+
+                    <label>
+
+                        <input type="checkbox">
+
+                        Faculty
+
+                    </label>
+
+
+                    <label>
+
+                        <input type="checkbox">
+
+                        Technical Clubs
+
+                    </label>
+
+                </div>
+
+
+
+                <!-- FILE -->
+
+                <label>
+                    Upload Circular File
+                </label>
+
+                <input
+                    type="file"
+                >
+
+
+
+                <!-- VIDEO -->
+
+                <label>
+                    Upload Event Video
+                </label>
+
+                <input
+                    type="file"
+                    accept="video/*"
+                >
+
+
+
+                <!-- NUMBER -->
+
+                <label>
+                    Maximum Participants
+                </label>
+
+                <input
+                    type="number"
+                    placeholder="Enter participant limit"
+                >
+
+
+
+                <!-- SUBMIT -->
+
+                <button
+                    type="submit"
+                    class="btn">
+
+                    Upload Circular
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Circular Management System
+        </p>
+
+    </footer>
+
+
+</body>
+</html>

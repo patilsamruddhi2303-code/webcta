@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Manage Notices</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            CMS Admin
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="admin_dashboard.html">
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="upload_notice.html">
+                    Upload Notice
+                </a>
+            </li>
+
+            <li>
+                <a href="login.html">
+                    Logout
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- PAGE HEADER -->
+
+    <section class="manage-header">
+
+        <h1>
+            Manage Circulars
+        </h1>
+
+        <p>
+            Edit, update, search,
+            and delete uploaded notices.
+        </p>
+
+    </section>
+
+
+
+    <!-- SEARCH SECTION -->
+
+    <section class="manage-search">
+
+        <input
+            type="text"
+            placeholder="Search circulars..."
+        >
+
+        <select>
+
+            <option>
+                All Priorities
+            </option>
+
+            <option>
+                High
+            </option>
+
+            <option>
+                Medium
+            </option>
+
+            <option>
+                Low
+            </option>
+
+        </select>
+
+        <button class="btn">
+            Search
+        </button>
+
+    </section>
+
+
+
+    <!-- NOTICE TABLE -->
+
+    <section class="manage-table-section">
+
+        <table class="manage-table">
+
+            <tr>
+
+                <th>
+                    Notice Title
+                </th>
+
+                <th>
+                    Uploaded By
+                </th>
+
+                <th>
+                    Priority
+                </th>
+
+                <th>
+                    Date
+                </th>
+
+                <th>
+                    Actions
+                </th>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>
+                    AI Workshop Circular
+                </td>
+
+                <td>
+                    Technical Club
+                </td>
+
+                <td class="high-priority">
+                    High
+                </td>
+
+                <td>
+                    15 May 2026
+                </td>
+
+                <td>
+
+                    <button class="edit-btn">
+                        Edit
+                    </button>
+
+                    <button class="delete-btn">
+                        Delete
+                    </button>
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>
+                    Semester Exam Schedule
+                </td>
+
+                <td>
+                    HOD
+                </td>
+
+                <td class="medium-priority">
+                    Medium
+                </td>
+
+                <td>
+                    14 May 2026
+                </td>
+
+                <td>
+
+                    <button class="edit-btn">
+                        Edit
+                    </button>
+
+                    <button class="delete-btn">
+                        Delete
+                    </button>
+
+                </td>
+
+            </tr>
+
+
+
+            <tr>
+
+                <td>
+                    Library Notice
+                </td>
+
+                <td>
+                    Admin Office
+                </td>
+
+                <td class="low-priority">
+                    Low
+                </td>
+
+                <td>
+                    13 May 2026
+                </td>
+
+                <td>
+
+                    <button class="edit-btn">
+                        Edit
+                    </button>
+
+                    <button class="delete-btn">
+                        Delete
+                    </button>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+
+
+    <!-- QUICK SUMMARY -->
+
+    <section class="manage-summary">
+
+        <div class="summary-card">
+
+            <h2>
+                45
+            </h2>
+
+            <p>
+                Total Notices
+            </p>
+
+        </div>
+
+
+        <div class="summary-card">
+
+            <h2>
+                12
+            </h2>
+
+            <p>
+                High Priority
+            </p>
+
+        </div>
+
+
+        <div class="summary-card">
+
+            <h2>
+                7
+            </h2>
+
+            <p>
+                Upcoming Events
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            © 2026 Circular Management System
+        </p>
+
+    </footer>
+
+
+</body>
+</html>
